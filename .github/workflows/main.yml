@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  linting:
+    name: Static linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install NPM dependencies
+        run: npm install
+
+      - name: ESLint
+        run: npm run eslint:ci
+
+      - name: Prettier
+        run: npm run prettier:ci
+
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install NPM dependencies
+        run: npm install
+
+      - name: Tests
+        run: npm run test

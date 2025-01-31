@@ -1,0 +1,7 @@
+.idea
+node_modules
+dist
+tests/examples
+reports
+*.tgz
+package-lock.json

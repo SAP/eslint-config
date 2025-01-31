@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}
