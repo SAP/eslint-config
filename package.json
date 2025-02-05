@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SAP/eslint-config"
+    "url": "git+https://github.com/SAP/eslint-config.git"
   },
   "dependencies": {
     "@eslint/js": "9.19.0",
