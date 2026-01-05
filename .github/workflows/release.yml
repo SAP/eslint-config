@@ -25,7 +25,5 @@ jobs:
       - run: npm run test
 
       - name: Publish package
-        # --provenance enables the automatic generation of provenance statements (when using trusted publisher, this is automatically enabled and therefore optional)
-        # --access public is only hard required for the initial release, but it doesn't hurt having it setup
         # npm version >=11.5.1 required for trusted publisher
-        run: npm publish --provenance --access public
+        run: npm publish
