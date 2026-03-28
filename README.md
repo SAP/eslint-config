@@ -4,8 +4,6 @@
 
 # ESLint Configuration for SAP Ecosystem
 
-## About this project
-
 Set of linting rules for JavaScript/TypeScript based projects in SAP ecosystem. Don't be special, just use this standard configuration.
 
 The package provides the following rule sets:
