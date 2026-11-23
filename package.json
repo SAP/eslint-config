@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "main": "configs/index.js",
   "engines": {
-    "node": ">=22.22.0",
+    "node": ">=24.22.1",
     "npm": ">=10.0.0"
   },
   "scripts": {
