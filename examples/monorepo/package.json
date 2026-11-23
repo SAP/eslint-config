@@ -22,5 +22,8 @@
   "lint-staged": {
     "./**/*.{js,ts,tsx}": "eslint --quiet",
     "**/*.{json,yml,yaml,md}": "prettier --check"
+  },
+  "engines": {
+    "node": ">=22.22.0"
   }
 }

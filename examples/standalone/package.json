@@ -12,5 +12,8 @@
     "lint": "eslint .",
     "fix": "eslint . --quiet --fix"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=22.22.0"
+  }
 }
