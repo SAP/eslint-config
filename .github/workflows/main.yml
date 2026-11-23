@@ -26,8 +26,6 @@ jobs:
       - name: Prettier
         run: npm run prettier:ci
 
-    permissions:
-      contents: read
   tests:
     name: Tests
     runs-on: ubuntu-latest
@@ -43,7 +41,5 @@ jobs:
 
       - name: Tests
         run: npm run test
-    permissions:
-      contents: read
 permissions:
   contents: read
